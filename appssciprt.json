@@ -1,0 +1,29 @@
+{
+  "timeZone": "Etc/GMT",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/gmail.addons.current.message.readonly",
+    "https://www.googleapis.com/auth/userinfo.email",
+    "https://www.googleapis.com/auth/script.external_request"
+  ],
+  "gmail": {
+    "name": "GGaBi Add-On",
+    "logoUrl": "http://www.ggabi.co.kr/static/media/logo-sm.b7dad5bb.png",
+    "contextualTriggers": [
+      {
+        "unconditional": {},
+        "onTriggerFunction": "main"
+      }
+    ],
+    "homepageTrigger": {
+      "enabled": true,
+      "runFunction": "buildHomepage"
+    },
+    "primaryColor": "#639DEE",
+    "secondaryColor": "#04144C"
+  },
+  "dependencies": {
+    "enabledAdvancedServices": []
+  },
+  "runtimeVersion": "V8"
+}
